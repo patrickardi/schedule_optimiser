@@ -426,8 +426,6 @@ def sources(wb):
         ("Every simulated timetable", "results/citywide_students_seed{1,2,3}.json.gz", "Per student and scenario: course -> day bitmasks."),
         ("This workbook", "scripts/build_workbook.py", "Regenerates this file from the results."),
         ("Year 1 CP-SAT model", "scripts/optimize.py, scripts/even_week.py", "Earlier first-year model with OR-Tools CP-SAT."),
-        ("Interactive explorer", "https://claude.ai/artifact/5GHA2KVRmxDYbPYpY18gsF", "Per-programme results and before/after weeks (share before sending)."),
-        ("Impact report page", "https://claude.ai/artifact/Tx3BiqYczKRGUK8fUWfr4H", "Summary charts with intervals."),
     ]
     row = 4
     for vals in items:
